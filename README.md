@@ -18,6 +18,7 @@ Simple arduino based LED controller to automatically fade LEDs on and off at set
         wdt_disable();
         wdt_enable(WDTO_4S);
         wdt_reset();
+  
   Hardware:
     Arduino (Designed to be usable with Nano v3 but larger ones will allow more channels and/or time slots)
     DS18B20 temp probes
@@ -25,12 +26,14 @@ Simple arduino based LED controller to automatically fade LEDs on and off at set
     I2C 2004 LCD
     I2C PCA9685 PWM
     I2C RTC (DS3231 preferably)
+  
   Libraries:
     LEDBloke's PCA9685_Lite
     FM NewLiquidCrystal v1.3.4 (https://bitbucket.org/fmalpartida/new-liquidcrystal/wiki/Home)
     Dallas OneWire v2.3.2 (http://playground.arduino.cc/Learning/OneWire)
     Wire (part of Arduino IDE)
     EEPROM (part of Arduino IDE)
+  
   IDE:
     Arduino IDE v1.6.8
 */
