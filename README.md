@@ -2,8 +2,11 @@
 Simple arduino based LED controller to automatically fade LEDs on and off at set times
 
 /* LED Controller
+
   2016 Feb Tim Perkins
+  
   Code written to control LEDs for a reef tank
+  
     Designed to be scalable for varying numbers of channels (needs minor changes to code) and time points (no code changes required)
     Supports auto acclimatisation - slowly increasing max PWM over user specified number of days
     Can control fans with on/off and PWM control based on temp
@@ -22,13 +25,13 @@ Simple arduino based LED controller to automatically fade LEDs on and off at set
     I2C 2004 LCD
     I2C PCA9685 PWM
     I2C RTC (DS3231 preferably)
-  Libraries
+  Libraries:
     LEDBloke's PCA9685_Lite
     FM NewLiquidCrystal v1.3.4 (https://bitbucket.org/fmalpartida/new-liquidcrystal/wiki/Home)
     Dallas OneWire v2.3.2 (http://playground.arduino.cc/Learning/OneWire)
     Wire (part of Arduino IDE)
     EEPROM (part of Arduino IDE)
-  IDE
+  IDE:
     Arduino IDE v1.6.8
 */
 
